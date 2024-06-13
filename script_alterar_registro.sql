@@ -1,0 +1,1 @@
+UPDATE `db_sala_16`.`tbl_alunos` SET `id` = '2', `nome` = 'bruna', `data_nascimento` = '170306', `genero` = 'feminino', `whatsapp` = '43978439802' WHERE (`id` = '1');
