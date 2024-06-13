@@ -1,0 +1,2 @@
+USE `db_sala_16`;USE `db_sala_16`;
+SELECT `cidades`.`nome`, `estados`.`nome` FROM `db_sala_16`.`cidades` INNER JOIN `db_sala_16`.`estados` ON `cidades`.`id_estado` = `estados`.`id` ORDER BY `cidades`.`id`;
